@@ -94,4 +94,3 @@ users["Jenny"] = {
       }
     ]
   }
-print(users["Jenny"])
