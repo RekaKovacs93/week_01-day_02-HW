@@ -25,8 +25,36 @@ numbers = [1, 6, 2, 2, 7, 1, 6, 13, 99, 7]
 #    So [5, 13, 2] would have sum of 5. 
 
 
+for num in numbers :
+    if num % 2 == 0 :
+        print(num)
 
 
+# numbers.sort()
+# print(numbers[9] - numbers[0])
+
+for i in numbers :
+    if i == 2 & i + 1 == 2:
+        print(True)
+        break
+
+total = 0
+# for num in numbers :
+#     if num == 6 :
+#         while num != 7 :
+#             total = 0
+#     else :
+#         total += num
+# print(total)
+
+# while num in numbers != 6:
+#     total += num
+# print(total)
 
 
-
+ind = numbers.index(13)
+negate = 13 + numbers[ind+1]
+for num in numbers:
+    total += num
+print(total - negate)
+    
