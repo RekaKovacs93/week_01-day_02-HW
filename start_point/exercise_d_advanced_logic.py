@@ -29,7 +29,6 @@ for num in numbers :
     if num % 2 == 0 :
         print(num)
 
-
 # numbers.sort()
 # print(numbers[9] - numbers[0])
 
@@ -50,7 +49,6 @@ total = 0
 # while num in numbers != 6:
 #     total += num
 # print(total)
-
 
 ind = numbers.index(13)
 negate = 13 + numbers[ind+1]
